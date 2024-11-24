@@ -31,7 +31,7 @@ Uma configuração monocromática do awesomeWM
 ### Instalação
 Use a versão git do awesomeWM, se voce usa arch linux use:
 
-	`yay -S awsome-git`
+	yay -S awsome-git
 
 Se voce não é usuario de arch, então compile o pacote do github
 
@@ -60,6 +60,15 @@ Troque o caminho da imagem na linha:
 
 	local image_dir = os.getenv("HOME") .. "/Imagens"
 
+Está customização usa algumas animações, por isso voce deve ter o *rubato instalado*
+
+	sudo pacman -S luarocks
+	sudo luarocks install rubato
+
+Clone o repositóri *rubato* dentro da pasta ~/awesome/modules
+Se a pasta *rubato* ja existir, remova ela e clone a nova
+
+	git clone https://github.com/andOrlando/rubato.git
 
 ## Informações
 #### Painel:
@@ -82,7 +91,7 @@ Troque o caminho da imagem na linha:
 	Aplicativo						Atalho do teclado
 
 	- Terminal:		Alacritty		(Super+Return)
-	- Browser:		Google chrome	(Super+c)
+	- Browser:		Google chrome		(Super+c)
 	- Editor		VsCode			(Super+v)
 	- Arquivos		Nemo			(Super+n)
 	- Chat			Telegram		(Super+t)
