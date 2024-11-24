@@ -57,6 +57,7 @@ Se o caminho para suas imagens for diferente, modifique o arquivo...
 	~/.config/awesome/widgets/wallpapers/wallpapers.lua
 
 Troque o caminho da imagem na linha:
+
 	local image_dir = os.getenv("HOME") .. "/Imagens"
 
 
