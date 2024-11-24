@@ -39,24 +39,25 @@ https://github.com/awesomeWM/awesome
 
 Clone este repositório
 
-	`git clone https://github.com/Diego-Cesare/awesome-paper.git`
+	git clone https://github.com/Diego-Cesare/awesome-paper.git
 
-Copie a pasta aswsome para ~/.config
+Copie a pasta awesome para ~/.config
 
-	`cp -r awesome-paper/awesome ~/.config`
+	cp -r awesome-paper/awesome ~/.config
 
 Se quiser usar os wallpapers então copie eles para a pasta de Imagens
 
-	`cp -r ~/.config/awesome/wallpapers/* ~/Imagens`
+	cp -r ~/.config/awesome/wallpapers/* ~/Imagens
 
 Desta forma o própio widget de wallpapers do awesome ira funcionar.
 Caso voce ja tenha imagens na pasta ~/Imagens, o widget ira reconhecer e exibir as imagens.
+
 Se o caminho para suas imagens for diferente, modifique o arquivo...
 	
-	`~/.config/awesome/widgets/wallpapers/wallpapers.lua`
+	~/.config/awesome/widgets/wallpapers/wallpapers.lua
 
 Troque o caminho da imagem na linha:
-	`local image_dir = os.getenv("HOME") .. "/Imagens"`
+	local image_dir = os.getenv("HOME") .. "/Imagens"
 
 
 ## Informações
