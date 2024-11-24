@@ -6,6 +6,8 @@ Uma configuração monocromática do awesomeWM
   <img src="https://github.com/Diego-Cesare/awesome-paper/blob/main/src/img_1.png" alt="Descrição da imagem 1" width="400" />
   <img src="https://github.com/Diego-Cesare/awesome-paper/blob/main/src/img_5.png" alt="Descrição da imagem 2" width="400" />
 </p>
+
+
 ### Painel de informações uteis.
 ![](https://github.com/Diego-Cesare/awesome-paper/blob/main/src/img_2.png)
 ![](https://github.com/Diego-Cesare/awesome-paper/blob/main/src/img_6.png)
